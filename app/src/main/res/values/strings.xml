@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HubblerAssignment</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Save</string>
+    <string name="title_activity_create_report">Create Report</string>
+    <string name="title_activity_report_list">Report List</string>
+</resources>
