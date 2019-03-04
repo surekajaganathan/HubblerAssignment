@@ -1,8 +1,78 @@
 [
-  {'field-name':'name', 'type':'text', 'required':true},
-  {'field-name':'age', 'type':'number', 'min':18, 'max':65},
-  {'field-name':'gender', 'type':'dropdown', 'options':['male', 'female', 'other']},
-  {'field-name':'address', 'type':'multiline'},
-  {'field-name':'hobbies', 'type':'dropdown', 'options':['music', 'dance', 'books']},
-  {'field-name':'Details'}
+  {
+    "field-name": "name",
+    "type": "text",
+    "required": true
+  },
+  {
+    "field-name": "Zone",
+    "type": "dropdown",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  {
+    "field-name": "education",
+    "type": "composite",
+    "fields": [
+      {
+        "field-name": "School",
+        "type": "text",
+        "required": true
+      },
+      {
+        "field-name": "College",
+        "type": "text"
+      }
+    ],
+    "required": false
+  },
+  {
+    "field-name": "age",
+    "type": "number"
+  },
+  {
+    "field-name": "address",
+    "type": "composite",
+    "fields": [
+      {
+        "field-name": "Address line1",
+        "type": "text",
+        "required": true
+      },
+      {
+        "field-name": "Address line2",
+        "type": "text"
+      },
+      {
+        "field-name": "City",
+        "type": "text",
+        "required": true
+      },
+      {
+        "field-name": "State",
+        "type": "text",
+        "required": true
+      },
+      {
+        "field-name": "Details",
+        "type": "composite",
+        "fields": [
+          {
+            "field-name": "Landmark",
+            "type": "text",
+            "required": true
+          },
+          {
+            "field-name": "Pincode",
+            "type": "number"
+          }
+        ]
+      }
+    ],
+    "required": false
+  }
 ]

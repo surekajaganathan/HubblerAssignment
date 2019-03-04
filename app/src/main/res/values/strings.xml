@@ -4,4 +4,7 @@
     <string name="action_save">Save</string>
     <string name="title_activity_create_report">Create Report</string>
     <string name="title_activity_report_list">Report List</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
